@@ -3,7 +3,7 @@ body
 {
 	font-family: Lato;
 }
-/*--------- Header */
+/*--------- ----------------Header */
 header
 {
 	background: url(../image/large.jpg);
@@ -12,6 +12,16 @@ header
 }
 header a{
 	color: #FFF;
+}
+.menu-fixed {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0px 1px 1px rgba(0,0,0,.1);
+    background: #3B5998;
 }
 nav li a{
 	display: block;
@@ -22,33 +32,35 @@ nav li a{
 nav li a:hover, nav li a:focus{
 	text-decoration: none;
 	outline: none;
-	background: #FFF;
+	background: #a2caf0;
+	border-bottom: 4px solid #3f85c6;
 }
 
 #main-navigation
 {
 	z-index: 1;
 	position: absolute;
-	right: 10px;
+	left:  0px;
 	margin: 10px 0 0 0;
 }
 #main-navigation ul
 {
-	background: rgba(0,0,0,0.7);
+	background: rgba(0,0,0,0.5);
 	list-style: none;
-	padding: 10px;
+	padding: 50px;
 	border-radius: 5px;
+
 }
 .logo
 {
-	margin-top: 10px;
+	margin-top: 12px;
 }
 .frase
 {
 	margin: 100px 0;
 	text-align: center;
 }
-.tapita-azul
+.fondo-azul
 {
 	background: rgba(90, 107, 136, 0.6);
 	padding-top: 10px ;
@@ -90,7 +102,7 @@ nav li a:hover, nav li a:focus{
 
 }
 
-/*------------------------ Separador vertical */
+/*------------------------ Separador  */
 .vertical-divider
 {
 	border-top:1px solid #CCC;
@@ -102,7 +114,7 @@ nav li a:hover, nav li a:focus{
 	z-index: 1;
 	transform: translateY(-50%) translateX(-50%);
 }
-/*------------------------ END Separador vertical */
+/*------------------------ fin Separador l */
 
 .services, .ejemplo{
 	margin: 100px 0;
@@ -144,7 +156,7 @@ nav li a:hover, nav li a:focus{
 	margin-left: -75px;
 }
 
-/*------------------------------------jemplo*/
+/*------------------------------------ejemplo*/
 .video{
     margin-top: 5%;
     padding-bottom: 5%;
